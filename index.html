@@ -2,6 +2,1026 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+
+layout: archive #home
 author_profile: true
+
+header:
+  show_overlay_excerpt: false
+  image: /assets/images/shopnoNie-cropped.jpg
+  og_image: /assets/images/shopnoNie-cropped.jpg
+  overlay_filter: 1       # same as adding an opacity of 0.5 to a black background
+  caption: "[**News article on our research success**](https://epaper.prothomalo.com/imageview_70354_14779_4_71_07-02-2021_10_i_1_st.html)"
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>QuwsarOhi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="/favicon.png"/>
+<link rel="icon" type="image/png" href="https://quwsarohi.github.io/favicon.png"/>
+<style>
+
+:root {
+  --section_color: #252626;
+  --item_color: #313B2F;
+  --fullwidth: 100%;
+}
+
+.section {
+    color: var(--section_color);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.subh {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 19px;
+    font-weight: normal;
+    color: var(--item_color);
+    text-transform: capitalize;
+}
+.sub {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--section_color);
+    text-transform: initial;
+}
+.subsub {
+    color: var(--item_color);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.inline {
+    font-size: 16px;
+    text-align: justify;
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.subsubsub {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.icon {
+    margin-top: 3px;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.article{
+    padding-bottom: 10px;
+    clear:both;
+    display:block;
+    float:center;
+    overflow:hidden;
+}
+
+.title{
+    float:left;
+    font-size:1.0em;
+}
+
+.conf{
+    float:right;
+    text-align:right;
+}
+
+.author_list{
+    color: #444;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    clear:both;
+    display:block;
+    font-weight:200;
+    font-size:15px;
+}
+
+.link_list{
+    margin-left:0em;
+    clear:both;
+    display:block;
+}
+
+.link{
+    list-style:none;
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right:1.5em;
+    display:inline;
+}
+
+.abstract{
+    clear:both;
+    display:none;
+    padding: 10px;
+    margin-left: 1.0em;
+}
+
+.image {
+    padding: 0px 0px 0px 0px;
+    margin-right: 1px;
+}
+
+.abstract p {
+    text-align:justify;
+    text-justify:auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #BB2020;
+}
+
+ul {
+    margin: 0;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+ul list {
+    margin: 0px 0px 0px -22px;
+    display: inline-block;
+    font-color: var(--item_color);
+    text-align: left;
+    font-size: 15px;
+}
+
+hr {
+    margin-top: 2px;
+    margin-bottom: 3.5px;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+table, th, td {
+    border: 0px solid black;
+    width: 400px;
+}
+
+td {
+    padding: 0;
+    margin: 0;
+}
+
+#rcorners {
+    font-size: 14px;
+    display: inline-flex;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1.5px solid #808080;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    color: var(--item_color);
+}
+
+/* Dashed border */
+hr.dashed {
+    border-top: 2px dashed var(--section_color);
+}
+
+/* Dotted border */
+hr.dotted {
+    opacity: 0.5;
+    border-top: 2px dotted var(--section_color);
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 2px solid var(--section_color);
+    margin-bottom: 5px;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid var(--section_color);
+    border-radius: 5px;
+}
+
+list, ul {
+    color: #444;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<SCRIPT  type="text/javascript"> 
+  function toggle(aa) {
+    state=document.getElementById(aa).style.display
+    if (state == '' || state == 'none') {
+      document.getElementById(aa).style.display='block';
+    }
+    if (state == 'block') {
+      document.getElementById(aa).style.display='none';
+    }
+  }
+</SCRIPT>
+
+    <div class="section">Research Interests</div>
+    <hr class="solid">
+    <ul>
+        <div style="margin: 0px 0px 0px -41px;">
+            <div id="rcorners">Artificial Intelligence</div>
+            <div id="rcorners">Deep Learning</div>
+            <div id="rcorners">Computer Vision</div>
+            <div id="rcorners">Speech Processing</div>
+            <div id="rcorners">Reinforcement Learning</div>
+            <div id="rcorners">Research and Development</div>
+        </div>
+    </ul>
+
+
+    <div class="section">Programming Skills & Tools</div>
+    <hr class="solid">
+    <ul>
+        <div style="margin: 0px 0px 0px -41px;">
+            <div id="rcorners">Python</div>
+            <div id="rcorners">C++</div>
+            <div id="rcorners">Latex</div>
+            <div id="rcorners">Tensorflow</div>
+            <div id="rcorners">PyTorch</div>
+            <div id="rcorners">Sklearn</div>
+            <div id="rcorners">Matplotlib</div>
+            <div id="rcorners">NumPy</div>
+            <div id="rcorners">Git</div>
+            <div id="rcorners">Linux</div>
+            <div id="rcorners">Docker</div>
+            <div id="rcorners">Django</div>
+            <div id="rcorners">Bootstrap</div>
+        </div>
+    </ul>
+
+    <div class="section">Academic Experience</div>
+    <hr class="solid">
+
+    <div class="subh" style="text-align:left;"> Lecturer </div>
+
+    <div class="sub" style="text-align:left;">
+        <a href="https://www.bubt.edu.bd/">Bangladesh University of Business and Technology</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        Apr. 2021 - Ongoing
+    </p>
+    <ul>
+        <list>
+            <li>Taught CSE 111 & CSE 112 in Spring 2021.</li>
+            <li>Currently taking CSE 111 & 112 in Fall 2021.</li>
+            <li>Arranged two intra-university programming contests.</li>
+        </list>
+    </ul>
+    
+    <div class="section">Research Experience</div>
+    <hr class="solid">
+    
+    <div class="subh">Research Assistant</div>
+    <div class="sub">
+        <!-- <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i> Bangladesh University of Business and Technology -->
+        <a href="https://www.bubt.edu.bd/">Bangladesh University of Business and Technology</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        Oct. 2020 - Ongoing
+    </p>
+    <ul>
+        <list>
+            <li> Conducting research investigation in text-to-speech (TTS) and speech-to-text (STT) systems. </li>
+            <li> Solving industrial faults related to TTS and STT. </li>
+        </list>
+    </ul>
+
+
+    <div class="subh">Research Assistant (part-time)</div>
+    <div class="sub">
+        <!-- <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i> Bangladesh University of Business and Technology -->
+        <a href="https://www.kau.edu.sa/home_ENGLISH.aspx">King AbdulAziz University</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        Jul. 2021 - Ongoing
+    </p>
+    <ul>
+        <list>
+            <li> Working on computer vision in precision agriculture. </li>
+        </list>
+    </ul>
+
+    <div class="subh">Research Assistant</div>
+    <div class="sub">
+        <!-- <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i> Bangladesh University of Business and Technology -->
+        <a href="https://www.bubt.edu.bd/">Bangladesh University of Business and Technology</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        Aug. 2020 - Jul. 2021
+    </p>
+    <ul>
+        <list>
+            <li>Developing and improving handwriting recognition systems to classify writers based on their handwriting.</li>
+            <li>Researching and developing real-world speaker recognition systems.</li>
+            <li> Collected and published <a href="https://doi.org/10.1016/j.dib.2020.106633">”BanglaWriting: A multi-purpose offline Bangla handwriting dataset”</a> in Data in Brief. </li>
+            <li> Engineered and published: <a href="https://doi.org/10.1109/ACCESS.2021.3114799">”A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts”</a> in IEEE Access. </li>
+            <li> Engineered and published: <a href="https://doi.org/10.3390/app112110079">”U-vectors: Generating clusterable speaker embedding from unlabeled data”</a> in Applied Sciences </li>
+        </list>
+    </ul>
+
+    <div class='subh'>Researcher</div>
+    <div class='sub'>
+        <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i>
+        <a href="https://amllab.bubt.edu.bd/">Advanced Machine Learning Lab</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        From 2020 - Present
+    </p>
+    <ul><list>
+        <li> Researching new architectural and mathematical strategies to reduce the current limit of deep learning based approaches. </li>
+        <li>Assisting fellow researchers with research and writing papers.</li>
+        <li>Collaborating with labs and team-based research tasks.</li>
+    </list></ul>
+
+
+<!-- Publications -->
+<div class="section">Journals</div><hr class="solid">
+<div class="article">
+    <div class="subsub">
+        AutoEmbedder: A semi-supervised DNN embedding system for clustering
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, M.F.Mridha, Farisa Benta Safir, Md. Abdul Hamid, Muhammad Mostafa Monowar
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.journals.elsevier.com/knowledge-based-systems">Knowledge-Based Systems</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('autoembedder')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2007.05830" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1016/j.knosys.2020.106190" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="autoembedder" class="abstract"><p>
+        Clustering is widely used in unsupervised learning method that deals with unlabeled data. Deep clustering has become a popular study area that relates clustering with Deep Neural Network (DNN) architecture. Deep clustering method downsamples high dimensional data, which may also relate clustering loss. Deep clustering is also introduced in semi-supervised learning (SSL). Most SSL methods depend on pairwise constraint information, which is a matrix containing knowledge if data pairs can be in the same cluster or not. This paper introduces a novel embedding system named AutoEmbedder, that downsamples higher dimensional data to clusterable embedding points. To the best of our knowledge, this is the first research endeavor that relates to traditional classifier DNN architecture with a pairwise loss reduction technique. The training process is semi-supervised and uses Siamese network architecture to compute pairwise constraint loss in the feature learning phase. The AutoEmbedder outperforms most of the existing DNN based semi-supervised methods tested on famous datasets.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        Exploring optimal control of epidemic spread using reinforcement learning
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, M.F.Mridha, Muhammad Mostafa Monowar, Md. Abdul Hamid
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.nature.com/srep/"> Scientific Reports </a> </div>
+    <div class="link">
+        <a href="javascript:toggle('epidemic')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1038/s41598-020-79147-8" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="epidemic" class="abstract"><p>
+        Pandemic defines the global outbreak of a disease having a high transmission rate. The impact of a pandemic situation can be lessened by restricting the movement of the mass. However, one of its concomitant circumstances is an economic crisis. In this article, we demonstrate what actions an agent (trained using reinforcement learning) may take in different possible scenarios of a pandemic depending on the spread of disease and economic factors. To train the agent, we design a virtual pandemic scenario closely related to the present COVID-19 crisis. Then, we apply reinforcement learning, a branch of artificial intelligence, that deals with how an individual (human/machine) should interact on an environment (real/virtual) to achieve the cherished goal. Finally, we demonstrate what optimal actions the agent perform to reduce the spread of disease while considering the economic factors. In our experiment, we let the agent find an optimal solution without providing any prior knowledge. After training, we observed that the agent places a long length lockdown to reduce the first surge of a disease. Furthermore, the agent places a combination of cyclic lockdowns and short length lockdowns to halt the resurgence of the disease. Analyzing the agent’s performed actions, we discover that the agent decides movement restrictions not only based on the number of the infectious population but also considering the reproduction rate of the disease. The estimation and policy of the agent may improve the human-strategy of placing lockdown so that an economic crisis may be avoided while mitigating an infectious disease.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        FabricNet: A fiber recognition architecture using ensemble ConvNets
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, M. F. Mridha, Md. Abdul Hamid, Muhammad Mostafa Monowar, Faris A Kateb
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://ieeeaccess.ieee.org/">IEEE Access</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('fabricnet')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.1109/ACCESS.2021.3051980" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="fabricnet" class="abstract"><p>
+        Fabric is a planar material composed of textile fibers. Textile fibers are generated from many natural sources; including plants, animals, minerals, and even, it can be synthetic. A particular fabric may contain different types of fibers that pass through a complex production process. Fiber identification is usually carried out through chemical tests and microscopic tests. However, these testing processes are complicated as well as time-consuming. We propose FabricNet, a pioneering approach for the image-based textile fiber recognition system, which may have a revolutionary impact from individual to the industrial fiber recognition process. The FabricNet can recognize a large scale of fibers by only utilizing a surface image of fabric. The recognition system is constructed using a distinct category of class-based ensemble convolutional neural network (CNN) architecture. The experiment is conducted on recognizing 50 different types of textile fibers. This experiment includes a significantly large number of unique textile fibers than previous research endeavors to the best of our knowledge. We experiment with popular CNN architectures that include Inception, ResNet, VGG, MobileNet, DenseNet, and Xception. Finally, the experimental results demonstrate that FabricNet outperforms the state-of-the-art popular CNN architectures by reaching an accuracy of 84% and F1-score of 90%.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        Deep Speaker Recognition: Process, Progress, and Challenges
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, M. F. Mridha, Md. Abdul Hamid, Muhammad Mostafa Monowar
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://ieeeaccess.ieee.org/">IEEE Access</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('dsr_survey')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1109/ACCESS.2021.3090109" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="dsr_survey" class="abstract"><p>
+        Speaker recognition is related to human biometrics dealing with the identification of speakers from their speech. Speaker recognition is an active research area and being widely investigated using artificially intelligent mechanisms. Though speaker recognition systems were previously constructed using handcrafted statistical means of machine learning, currently it is being shifted to state-of-the-art deep learning strategies. Further, deep learning being a fast-paced domain, an absence of comprehensive survey is observed in the current deep speaker recognition technologies. In this paper, we focus on deep speaker recognition technologies. The paper particularly introduces a taxonomy, explains the progress, architectural strategies and processes of some distinctive approaches. Further, the manuscript classifies and enlists the currently available datasets and programming tools. Finally, the paper investigates the challenges and future directives of deep speaker recognition technology.
+    </p></div>
+</div>
+
+
+<div class="article">
+    <div class="subsub">
+        A Study on the Challenges and Opportunities of Speech Recognition for Bengali Language
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, M. F. Mridha, Md. Abdul Hamid, Muhammad Mostafa Monowar
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.springer.com/journal/10462">Artificial Intelligence Review</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('asr_survey')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2109.13217" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="#" target="_blank" rel="noopener noreferrer">IN PRESS</a>
+    </div><br>
+
+    <div id="asr_survey" class="abstract"><p>
+        Speech recognition is a fascinating process that offers the opportunity to interact and command the machine in the field of human-computer interactions. Speech recognition is a language-dependent system constructed directly based on the linguistic and textual properties of any language. Automatic Speech Recognition (ASR) systems are currently being used to translate speech to text flawlessly. Although ASR systems are being strongly executed in international languages, ASR systems' implementation in the Bengali language has not reached an acceptable state. In this research work, we sedulously disclose the current status of the Bengali ASR system's research endeavors. In what follows, we acquaint the challenges that are mostly encountered while constructing a Bengali ASR system. We split the challenges into language-dependent and language-independent challenges and guide how the particular complications may be overhauled. Following a rigorous investigation and highlighting the challenges, we conclude that Bengali ASR systems require specific construction of ASR architectures based on the Bengali language's grammatical and phonetic structure.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        U-Vectors: Generating Clusterable Speaker Embedding from Unlabeled Data
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Muhammad Firoz Mridha, Abu Quwsar Ohi, Muhammad Mostafa Monowar, Md. Abdul Hamid, Md. Rashedul Islam, Yutaka Watanobe
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.mdpi.com/journal/applsci">Applied Sciences (MDPI)</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('uvector')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.3390/app112110079" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="uvector" class="abstract"><p>
+        Speaker recognition deals with recognizing speakers by their speech. Most speaker recognition systems are built upon two stages, the first stage extracts low dimensional correlation embeddings from speech, and the second performs the classification task. The robustness of a speaker recognition system mainly depends on the extraction process of speech embeddings, which are primarily pre-trained on a large-scale dataset. As the embedding systems are pre-trained, the performance of speaker recognition models greatly depends on domain adaptation policy, which may reduce if trained using inadequate data. This paper introduces a speaker recognition strategy dealing with unlabeled data, which generates clusterable embedding vectors from small fixed-size speech frames. The unsupervised training strategy involves an assumption that a small speech segment should include a single speaker. Depending on such a belief, a pairwise constraint is constructed with noise augmentation policies, used to train AutoEmbedder architecture that generates speaker embeddings. Without relying on domain adaption policy, the process unsupervisely produces clusterable speaker embeddings, termed unsupervised vectors (u-vectors). The evaluation is concluded in two popular speaker recognition datasets for English language, TIMIT, and LibriSpeech. Also, a Bengali dataset is included to illustrate the diversity of the domain shifts for speaker recognition systems. Finally, we conclude that the proposed approach achieves satisfactory performance using pairwise architectures.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        A Thresholded Gabor-CNN Based Writer Identification System for Indic Scripts
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            M. F. Mridha, Abu Quwsar Ohi, Jungpil Shin, Muhammad Mohsin Kabir, Muhammad Mostafa Monowar, Md. Abdul Hamid
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://ieeeaccess.ieee.org/">IEEE Access</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('gaborcnn')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.1109/ACCESS.2021.3114799" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="gaborcnn" class="abstract"><p>
+        Writer identification is the procedure of identifying individuals from handwriting. Writer identification is a common interest in biometric authentication and verification systems, and numerous studies are available for English, Chinese, Arabic, and Persian specific handwriting. This paper introduces a supervised offline Indic script writer identification system that can identify individuals using less than a single page of handwriting. A lightweight Convolutional Neural Network (CNN) architecture fused with non-trainable Gabor filters is used as an identification model that can recognize writers from scarce data. For the experiment, we used BanglaWriting dataset, which is openly available for Bengali writing and writer recognition. Further, we added Devanagari and Telugu datasets for evaluation. The overall evaluation shows that the proposed thresholded Gabor-based CNN architecture performs superior to numerous deep CNN architectures for Indic writer recognition.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        FruitDet: Attentive Feature Aggregation for Real-Time Fruit Detection in Orchards
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Faris A. Kateb, Muhammad Mostafa Monowar, Md. Abdul Hamid, Abu Quwsar Ohi, M. F. Mridha
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.mdpi.com/journal/agronomy">Agronomy</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('fruitdet')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.3390/agronomy11122440" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="fruitdet" class="abstract"><p>
+        Computer vision is currently experiencing success in various domains due to the harnessing of deep learning strategies. In the case of precision agriculture, computer vision is being investigated for detecting fruits from orchards. However, such strategies limit too-high complexity computation that is impossible to embed in an automated device. Nevertheless, most investigation of fruit detection is limited to a single fruit, resulting in the necessity of a one-to-many object detection system. This paper introduces a generic detection mechanism named FruitDet, designed to be prominent for detecting fruits. The FruitDet architecture is designed on the YOLO pipeline and achieves better performance in detecting fruits than any other detection model. The backbone of the detection model is implemented using DenseNet architecture. Further, the FruitDet is packed with newer concepts: attentive pooling, bottleneck spatial pyramid pooling, and blackout mechanism. The detection mechanism is benchmarked using five datasets, which combines a total of eight different fruit classes. The FruitDet architecture acquires better performance than any other recognized detection methods in fruit detection.
+    </p></div>
+</div>
+
+
+<div class="article">
+    <div class="subsub">
+        A Comprehensive Survey on Deep-Learning-Based Breast Cancer Diagnosis
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            M. F. Mridha, Md. Abdul Hamid, Muhammad Mostafa Monowar, Ashfia Jannat Keya, Abu Quwsar Ohi, Md. Rashedul Islam, Jong-Myon Kim
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.mdpi.com/journal/cancers">Cancers</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('bcancer_survey')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.3390/cancers13236116" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="bcancer_survey" class="abstract"><p>
+        Breast cancer is now the most frequently diagnosed cancer in women, and its percentage is gradually increasing. Optimistically, there is a good chance of recovery from breast cancer if identified and treated at an early stage. Therefore, several researchers have established deep-learning-based automated methods for their efficiency and accuracy in predicting the growth of cancer cells utilizing medical imaging modalities. As of yet, few review studies on breast cancer diagnosis are available that summarize some existing studies. However, these studies were unable to address emerging architectures and modalities in breast cancer diagnosis. This review focuses on the evolving architectures of deep learning for breast cancer detection. In what follows, this survey presents existing deep-learning-based architectures, analyzes the strengths and limitations of the existing studies, examines the used datasets, and reviews image pre-processing techniques. Furthermore, a concrete review of diverse imaging modalities, performance metrics and results, challenges, and research directions for future researchers is presented.
+    </p></div>
+</div>
+
+
+<div class="article">
+    <div class="subsub">
+        A Survey of Speaker Recognition: Fundamental Theories, Recognition Methods and Opportunities
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            Muhammad Mohsin Kabir, M. F. Mridha, Jungpil Shin, Israt Jahan, Abu Quwsar Ohi
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://ieeeaccess.ieee.org/">IEEE Access</a> </div>
+    <div class="link">
+        <a href="javascript:toggle('fabricnet')">Abstract</a>
+    </div>
+    <!-- <div class="link">
+      <a href="https://arxiv.org/abs/2101.05564" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div> -->
+    <div class="link">
+      <a href="https://doi.org/10.1109/ACCESS.2021.3084299" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="fabricnet" class="abstract"><p>
+        Humans can identify a speaker by listening to their voice, over the telephone, or on any digital devices. Acquiring this congenital human competency, authentication technologies based on voice biometrics, such as automatic speaker recognition (ASR), have been introduced. An ASR recognizes speakers by analyzing speech signals and characteristics extracted from speaker’s voices. ASR has recently become an effective research area as an essential aspect of voice biometrics. Specifically, this literature survey gives a concise introduction to ASR and provides an overview of the general architectures dealing with speaker recognition technologies, and upholds the past, present, and future research trends in this area. This paper briefly describes all the main aspects of ASR, such as speaker identification, verification, diarization etc. Further, the performance of current speaker recognition systems are investigated in this survey with the limitations and possible ways of improvement. Finally, a few unsolved challenges of speaker recognition are presented at the closure of this survey.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        BanglaWriting: A multi-purpose offline Bangla handwriting dataset
+    </div>      
+    <div class="author_list">
+        <span class="authors">
+            M.F.Mridha, Abu Quwsar Ohi, M. Ameer Ali, Mazedul Islam Emon, Md Mohsin Kabir
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.journals.elsevier.com/data-in-brief"> Data in Brief </a> </div>
+    <div class="link">
+        <a href="javascript:toggle('banglawriting')">Abstract</a>
+    </div>
+    <div class="link">
+        <a href="https://doi.org/10.1016/j.dib.2020.106633" target="_blank" rel="noopener noreferrer">Article</a>
+    </div>
+    <div class="link">
+        <a href="https://dx.doi.org/10.17632/r43wkvdk4w.1" target="_blank" rel="noopener noreferrer">Dataset</a>
+    </div><br>
+
+    <div id="banglawriting" class="abstract"><p>
+        This article presents a Bangla handwriting dataset named BanglaWriting that contains single-page handwritings of 260 individuals of different personalities and ages. Each page includes bounding-boxes that bounds each word, along with the unicode representation of the writing. This dataset contains 21,234 words and 32,787 characters in total. Moreover, this dataset includes 5,470 unique words of Bangla vocabulary. Apart from the usual words, the dataset comprises 261 comprehensible overwriting and 450 incomprehensible overwriting. All of the bounding boxes and word labels are manually-generated. The dataset can be used for complex optical character/word recognition, writer identification, and handwritten word segmentation. Furthermore, this dataset is suitable for extracting age-based and gender-based variation of handwriting.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        A lightweight speaker recognition system using timbre properties
+    </div>   
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, MF Mridha, Md Abdul Hamid, Muhammad Mostafa Monowar, Dongsu Lee, Jinsul Kim
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00013824"> Journal of Contents Computing </a> </div>
+    <div class="link">
+        <a href="javascript:toggle('lightspeaker')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2010.05502" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.9728/jcc.2020.06.2.1.139" target="_blank" rel="noopener noreferrer">Article</a>
+    </div><br>
+
+    <div id="lightspeaker" class="abstract"><p>
+        Speaker recognition is an active research area that contains notable usage in biometric security and authentication system. Currently, there exist many well-performing models in the speaker recognition domain. However, most of the advanced models implement deep learning that requires GPU support for real-time speech recognition, and it is not suitable for low-end devices. In this paper, we propose a lightweight text-independent speaker recognition model based on random forest classifier. It also introduces new features that are used for both speaker verification and identification tasks. The proposed model uses human speech based timbral properties as features that are classified using random forest. Timbre refers to the very basic properties of sound that allow listeners to discriminate among them. The prototype uses seven most actively searched timbre properties, boominess, brightness, depth, hardness, roughness, sharpness, and warmth as features of our speaker recognition model. The experiment is carried out on speaker verification and speaker identification tasks and shows the achievements and drawbacks of the proposed model. In the speaker identification phase, it achieves a maximum accuracy of 78%. On the contrary, in the speaker verification phase, the model maintains an accuracy of 80% having an equal error rate (ERR) of 0.24.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        Full dynamic transmission model and threat analysis of COVID-19
+    </div>   
+
+    <div class="author_list">
+        <span class="authors">
+            Abu Quwsar Ohi, MF Mridha, Md Abdul Hamid, Muhammad Mostafa Monowar, Md Ferdous Mridha, AKM Ashiquzzaman
+        </span>
+    </div>
+    <div class="link"> Published in: <a href="https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00013824"> Journal of Contents Computing </a> </div>
+    <div class="link">
+        <a href="javascript:toggle('covid19trans')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="http://doi.org/10.9728/jcc.2020.06.2.1.127" target="_blank" rel="noopener noreferrer">Article</a>
+    </div>
+
+    <div id="covid19trans" class="abstract"><p>
+        No doubt, the COVID-19 outbreak exemplifies ongoing biothreats to humanity as a whole. This necessitates an emergency response towards its remedy because it is heightened in importance and compressed in the time frame. Consequently, significant research efforts have been noticed to tackle this pressing crisis. In this paper, we endeavor to formulate a mathematical model of the transmission of COVID-19. The dynamics of the disease are illustrated by a compartmental model that involves differential equations. The paper also exhibits a mathematical estimation of the future threats induced by COVID-19 universally, which is computed based on the immediate statistical data. We compute the current transmission rate of COVID-19 to be 0.0462, considering the current fertility and mortality of the world population. From the threat estimation, it is expected that the COVID-19 may eliminate around 30% of the current population by the next three years, and it may obliterate nearly 43% of the current population by the next five years.
+    </p></div><br>
+</div>
+
+<div class="article">
+<div class='section'>Conferences</div><hr class="solid">
+    <div class="subsub">
+        Human Abnormality Detection Based on Bengali Text
+    </div>
+    <div class="author_list">
+        <span class="authors">
+            M.F.Mridha, Md Saifur Rahman, Abu Quwsar Ohi
+        </span>
+    </div>
+    <div class="link">
+        <a href="javascript:toggle('abnormality')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2007.10718" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="http://doi.org/10.1109/TENSYMP50017.2020.9230629" target="_blank" rel="noopener noreferrer">Conference</a>
+    </div>
+
+    <div id="abnormality" class="abstract"><p>
+        In the field of natural language processing and human-computer interaction, human attitudes and sentiments have attracted the researchers. However, in the field of human-computer interaction, human abnormality detection has not been investigated extensively and most works depend on image-based information. In natural language processing, effective meaning can potentially convey by all words. Each word may bring out difficult encounters because of their semantic connection with ideas or categories. In this paper, an efficient and effective human abnormality detection model is introduced, that only uses Bengali text. This proposed model can recognize whether the person is in a normal or abnormal state by analyzing their typed Bengali text. To the best of our knowledge, this is the first attempt in developing a text based human abnormality detection system. We have created our Bengali dataset (contains 2000 sentences) that is generated by voluntary conversations. We have performed the comparative analysis by using Naive Bayes and Support Vector Machine as classifiers. Two different feature extraction techniques count vector, and TF-IDF is used to experiment on our constructed dataset. We have achieved a maximum 89% accuracy and 92% F1-score with our constructed dataset in our experiment.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        An Evolution of CNN Object Classifiers on Low-Resolution Images
+    </div>
+    <div class="author_list">
+        <span class="authors">
+            Md. Mohsin Kabir, Abu Quwsar Ohi, M.F.Mridha, Md Saifur Rahman
+        </span>
+    </div>
+    <div class="link">
+        <a href="javascript:toggle('lowres')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2101.00686" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1109/HONET50430.2020.9322661" target="_blank" rel="noopener noreferrer">Conference</a>
+    </div>
+
+    <div id="lowres" class="abstract"><p>
+        Object classification is a significant task in computer vision. It has become an effective research area as an important aspect of image processing and the building block of image localization, detection, and scene parsing. Object classification from low-quality images is difficult for the variance of object colors, aspect ratios, and cluttered backgrounds. The field of object classification has seen remarkable advancements, with the development of deep convolutional neural networks (DCNNs). Deep neural networks have been demonstrated as very powerful systems for facing the challenge of object classification from high-resolution images, but deploying such object classification networks on the embedded device remains challenging due to the high computational and memory requirements. Using high-quality images often causes high computational and memory complexity, whereas low-quality images can solve this issue. Hence, in this paper, we investigate an optimal architecture that accurately classifies low-quality images using DCNNs architectures. To validate different baselines on lowquality images, we perform experiments using webcam captured image datasets of 10 different objects. In this research work, we evaluate the proposed architecture by implementing popular CNN architectures. The experimental results validate that the MobileNet architecture delivers better than most of the available CNN architectures for low-resolution webcam image datasets.
+    </p></div>
+</div>
+
+<div class="article">
+    <div class="subsub">
+        End-to-End Optical Character Recognition for Bengali Handwritten Words
+    </div>
+    <div class="author_list">
+        <span class="authors">
+            Farisa Benta Safir, Abu Quwsar Ohi, MF Mridha, Muhammad Mostafa Monowar, Md. Abdul Hamid
+        </span>
+    </div>
+    <div class="link">
+        <a href="javascript:toggle('ocr-farisa')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2105.04020" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1109/NCCC49330.2021.9428809" target="_blank" rel="noopener noreferrer">Conference</a>
+    </div>
+
+    <div id="ocr-farisa" class="abstract"><p>
+        Optical character recognition (OCR) is a process of converting analogue documents into digital using document images. Currently, many commercial and non-commercial OCR systems exist for both handwritten and printed copies for different languages. Despite this, very few works are available in case of recognising Bengali words. Among them, most of the works focused on OCR of printed Bengali characters. This paper introduces an end-to-end OCR system for Bengali language. The proposed architecture implements an end to end strategy that recognises handwritten Bengali words from handwritten word images. We experiment with popular convolutional neural network (CNN) architectures, including DenseNet, Xception, NASNet, and MobileNet to build the OCR architecture. Further, we experiment with two different recurrent neural networks (RNN) methods, LSTM and GRU. We evaluate the proposed architecture using BanglaWritting dataset, which is a peer-reviewed Bengali handwritten image dataset. The proposed method achieves 0.091 character error rate and 0.273 word error rate performed using DenseNet121 model with GRU recurrent layer.
+    </p></div>
+</div>
+
+
+<div class="article">
+    <div class="subsub">
+        A Survey on Bengali Image Captioning: Architectures, Challenges, and Directions
+    </div>
+    <div class="author_list">
+        <span class="authors">
+            Shamima Sukhi, Abu Quwsar Ohi, Md Saifur Rahman, M.F. Mridha
+        </span>
+    </div>
+    <div class="link">
+        <a href="javascript:toggle('lowres')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="#" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="#" target="_blank" rel="noopener noreferrer">Conference</a>
+    </div>
+
+    <div id="lowres" class="abstract"><p>
+        Will be available soon...
+    </p></div>
+</div>
+
+<!--<div class='subh'>Book Chapters</div><hr class="dashed"> -->
+<div class='section'>Book Chapters</div><hr class="solid">
+<div class="article">
+    <div class="subsub">
+        A Multi-Plant Disease Diagnosis Method using Convolutional Neural Network
+    </div>
+    <div class="author_list">
+        <span class="authors">
+            Muhammad Mohsin Kabir, Abu Quwsar Ohi, M. F. Mridha
+        </span>
+    </div>
+    <div class="link">
+        <a href="javascript:toggle('allplantdisease')">Abstract</a>
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/2011.05151" target="_blank" rel="noopener noreferrer">arXiv</a>
+    </div>
+    <div class="link">
+      <a href="https://doi.org/10.1007/978-981-33-6424-0_7" target="_blank" rel="noopener noreferrer">Book</a>
+    </div>
+
+    <div id="allplantdisease" class="abstract"><p>
+        A disease that limits a plant from its maximal capacity is defined as plant disease. From the perspective of agriculture, diagnosing plant disease is crucial, as diseases often limit plants' production capacity. However, manual approaches to recognize plant diseases are often temporal, challenging, and time-consuming. Therefore, computerized recognition of plant diseases is highly desired in the field of agricultural automation. Due to the recent improvement of computer vision, identifying diseases using leaf images of a particular plant has already been introduced. Nevertheless, the most introduced model can only diagnose diseases of a specific plant. Hence, in this chapter, we investigate an optimal plant disease identification model combining the diagnosis of multiple plants. Despite relying on multi-class classification, the model inherits a multilabel classification method to identify the plant and the type of disease in parallel. For the experiment and evaluation, we collected data from various online sources that included leaf images of six plants, including tomato, potato, rice, corn, grape, and apple. In our investigation, we implement numerous popular convolutional neural network (CNN) architectures. The experimental results validate that the Xception and DenseNet architectures perform better in multi-label plant disease classification tasks. Through architectural investigation, we imply that skip connections, spatial convolutions, and shorter hidden layer connectivity cause better results in plant disease classification.
+    </p></div>
+</div>
+
+<!--
+<br><br>
+<div class='subh'>Datasets</div><hr class="dashed">
+    <div class="subsub">
+            BanglaWriting: A multi-purpose offline Bangla handwriting dataset
+        </div>      
+        <div class="author_list">
+            <span class="authors">
+                M.F.Mridha, Abu Quwsar Ohi, M. Ameer Ali, Mazedul Islam Emon, Md Mohsin Kabir
+            </span>
+        </div>
+        <div class="link">
+            <a href="javascript:toggle('banglawriting')">Description</a>
+        </div>
+        <div class="link">
+          <a href="http://dx.doi.org/10.17632/r43wkvdk4w.1" target="_blank" rel="noopener noreferrer">Mendeley</a>
+        </div>
+
+        <div id="banglawriting" class="abstract"><p>
+            The BanglaWriting dataset contains single-page handwritings of 260 individuals of different personalities and ages. Each page includes bounding-boxes that bounds each word, along with the unicode representation of the writing. This dataset contains 21,234 words and 32,787 characters in total. Moreover, this dataset includes 5,470 unique words of Bangla vocabulary. Apart from the usual words, the dataset comprises 261 comprehensible overwriting and 450 incomprehensible overwriting. All of the bounding boxes and word labels are manually-generated. The dataset can be used for complex optical character/word recognition, writer identification, and handwritten word segmentation. Furthermore, this dataset is suitable for extracting age-based and gender-based variation of handwriting.
+        </p></div>
+
+<br><br>
+
+    <div class="subsub">
+            Human Abnormality Detection Based on Bengali Text
+        </div>      
+        <div class="author_list">
+            <span class="authors">
+                M.F.Mridha, Abu Quwsar Ohi
+            </span>
+        </div>
+        <div class="link">
+            <a href="javascript:toggle('abnormalitydata')">Description</a>
+        </div>
+        <div class="link">
+          <a href="http://dx.doi.org/10.17632/gz2tbhpr37.1" target="_blank" rel="noopener noreferrer">Mendeley</a>
+        </div>
+
+        <div id="abnormalitydata" class="abstract"><p>
+            The dataset contained sentences with appropriate labels (normal/abnormal). Multiple specialists appropriately classified the sentences of the dataset. The dataset is generated in a CSV format. The CSV file contains two columns, "Abnormality" and "Sentence". Each Bengali sentence contains two target values, 1 (abnormal) or 0 (normal). The dataset comprises 14414 Bengali sentences, where 14312 sentences are normal, and 102 sentences are abnormal. For more details, please inspect the source paper of the dataset.
+        </p></div>
+--->
+
+
+<div class="section">Achievements/Awards</div>
+<hr class="solid">
+<ul><div style="margin: 0px 0px 0px -40px; font-size: 17px;">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i>
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>Annual Publication Award (2020)</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Received an annual publication award for publications in the calendar year 2020.</span>
+
+
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i>
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>Research Appreciation</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Received appreciation from honorable Vice Chancellor (BUBT) for excellent research publication.</span>
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i>
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>Programming Contest Winner</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Total 5 times champion in BUBT Intra University Programming Contest</span>
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i> 
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>National Collegiate Programming Contest (NCPC)</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Placed among top <a href="https://algo.codemarshal.org/contests/mist-ncpc-2020/standings">31</a> </span>
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i> 
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>International Collegiate Programming Contest - Dhaka Regional Contest</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Attended ICPC Dhaka Regional 2 times and placed among top 70</span>
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-trophy fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i> 
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>Inter University Programming Contest</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Attended more than 5 contests and conquered highest rank <a href="https://toph.co/c/1st-aub-inter-university/standings">7</a> </span>
+    </div>
+    </div>
+    <hr class="dotted">
+    <div style="display: flex; align-items: center;">
+    <i class="fa fa-chart-line fa-xl" aria-hidden="true" style="margin-right: 5px; font-size: 20px"></i> 
+    <div>
+        <span style="font-size: 16px margin: 0px padding: 0px"><strong>Problem Solver</strong></span>
+        <br>
+        <span style="font-size: 11px margin: 0px padding: 0px">Solved around <a href="https://www.stopstalk.com/user/profile/QuwsarOhi">2000</a> problems in various online judges </span>
+    </div>
+</div>
+</div></ul>
+
+<div class="section">ONLINE PROGRAMMING PROFILES</div>
+<hr class="solid">
+<ul><div style="margin: 0px 0px 0px -20px; font-size: 17px;">
+    <li>Solved 470+ problems in 
+        <a href="https://uhunt.onlinejudge.org/id/833681" target="_blank" rel="noopener noreferrer">UVA online judge</a>.
+    </li>
+    <li>Solved 220+ problems in <a href="https://lightoj.com/user/quwsar-ohi" target="_blank" rel="noopener noreferrer">LightOJ</a>.</li>
+    <li><a href="https://codeforces.com/profile/QuwsarOhi" target="_blank" rel="noopener noreferrer">CodeForces</a> highest rating 1581.</li>
+    <li><a href="https://www.codechef.com/users/quwsarohi" target="_blank" rel="noopener noreferrer">CodeChef</a> highest rating 1948.</li>
+</div></ul>
+
+<div class="section">Industry Experience</div><hr class="solid">
+
+<div class='subh'>Software Engineer (Intern)</div>
+    <div class='sub'>
+        <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i>
+        <a href="https://klovercloud.com/">KloverCloud</a>
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        From November, 2020 - January, 2021
+    </p>
+    <ul><list>
+        <li>Designing and developing web applications.</li>
+        <li>Deploying and testing application in Kubernetes.</li>
+    </list></ul>
+
+
+<div class="section">Volunteer Experience</div><hr class="solid">
+
+<div class='subh'>Problem setter & judge</div>
+    <div class='sub'>
+        <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i>
+        <a href="https://www.bubt.edu.bd/">Bangladesh University of Business and Technology</a> 
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        From 2019 - Present
+    </p>
+    <ul><list>
+        <li>Planning & managing intra-university programming contests.</li>
+        <li>Writing & collecting problem-sets and conducting critical problem-set selection tasks.</li>
+    </list></ul>
+
+
+<div class='subh'>Conveiner</div>
+    <div class='sub'>
+        <i class="fa fa-at" aria-hidden="true" style="margin-right: 5px"></i>
+        Competitive Programming Community (BUBT)
+    </div>
+    <p>
+        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 5px"></i>
+        From 2019 - 2021
+    </p>
+    <ul><list>
+        <li>Planning semester-wise schedule for training classes.</li>
+        <li>Training and guiding junior competitive programmers.</li>
+    </list></ul>
+
+
+<div class="section">MEDIA COVERAGE</div>
+<hr class="solid">
+<ul><div style="margin: 0px 0px 0px -20px; font-size: 17px;">
+    <li>Appeared in daily newspaper <a href="https://epaper.prothomalo.com/imageview_70354_14779_4_71_07-02-2021_10_i_1_st.html" target="_blank" rel="noopener noreferrer">Prothom-Alo</a>. for publishing paper related to epidemic</li>
+    <li>Featured in <a href="https://youtu.be/PECLW19OSxQ" target="_blank" rel="noopener noreferrer">university's YouTube channel</a> highlighting my research success for publishing in Scientific Report (journal) under low resources.</li>
+</div></ul>
+
+<!--
+<div class="section">Personal projects</div>
+<hr class="solid">
+<div class="subh"><a href="https://github.com/QuwsarOhi/plagIT">plagIT</a></div>
+<div class="sub">A plagiarism checker for programming languages</div>
+<div class="subsubsub">plugIT is a plagiarism checker that checks for plagiarism based on the lexical changes of two scripts. plagIT currently supports plagiarism check on C, C++, Python, and Java.</div>
+
+
+<div class="subh"><a href="https://github.com/QuwsarOhi/EmployeeManagement">EmployeeManagement</a></div>
+<div class="sub">An employee management system</div>
+<div class="subsubsub">A web-based employee management system that registers employees & keeps a log of their salary, pay grade, role, and personal information.</div>
+-->
+
+<div class="section">Biography</div>
+<hr class="solid">
+<div class="inline">
+Abu Quwsar Ohi is a computer science graduate and currently working as a lecturer and research assistant at Bangladesh University of Business and Technology in the Department of Computer Science and Engineering (BUBT). His research focuses on deep learning algorithms, pattern recognition, computer vision, and reinforcement learning. He has multiple publications in a short period and received an annual publication award for his first year of research work (2020). 
+
+Moreover, he is proficient in prominent frameworks, including TensorFlow, Keras, NumPy, Matplotlib, etc. Apart from his research works, he is a Competitive Programmer and has attained more than 10 Bangladeshi national programming contests, including National Collegiate Programming Contest (NCPC) and International Collegiate Programming Contest (ICPC). He is passionate about learning fundamental algorithms, including data structures, dynamic programming, and game theory. He has experience working in famous languages, including Python and C++.
+</div>
+
+<!-- Default Statcounter code for My website https://quwsarohi.github.io/ -->
+<script type="text/javascript">
+var sc_project=12527648; 
+var sc_invisible=0; 
+var sc_security="9304359d"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web statistics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12527648/0/9304359d/0/" alt="web
+statistics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
