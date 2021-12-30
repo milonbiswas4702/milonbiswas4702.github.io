@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Milon Biswas"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "'DREAM is something which doesn&#39;t let you sleep' – the quote I followed. I am keen on learning new things as an enthusiastic learner, taking on challenges, solving problems, and transforming innovative ideas into reality. Working in the academic (Teaching &amp; Research) arena for the past four years and have already published a few papers in the meantime. Finally building a career as a successful Academician and participating in advanced research in the desired fields."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
