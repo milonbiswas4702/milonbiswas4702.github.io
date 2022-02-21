@@ -68,6 +68,12 @@ author:
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
+    - label: "Mail"
+      icon: "far fa-envelope"
+      url: "mailto:milonbiswas4702@gmail.com"
+    - label: "Scholar"
+      icon: "fa fa-google"
+      url: "https://scholar.google.com/citations?user=s7uhQMIAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/milonbiswas4702"
@@ -82,7 +88,10 @@ author:
       url: "https://www.linkedin.com/in/milon-biswas/" 
 
 footer:
-  #links:
+  links:
+      - label: "Mail"
+      icon: "far fa-envelope"
+      url: "mailto:milonbiswas4702@gmail.com"
   #  - label: "Twitter"
   #    icon: "fab fa-fw fa-twitter-square"
   #    url: "https://twitter.com/"
@@ -93,7 +102,7 @@ footer:
   #    icon: "fab fa-fw fa-instagram"
   #    url: "https://instagram.com/"
   #links:
-  #  - label: "Mail"
+
 
 defaults:
   # _posts
