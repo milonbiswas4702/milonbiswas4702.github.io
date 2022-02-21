@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MilonBiswas
-email: milonbiswas4702.gmail.com
+email: milonbiswas4702@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+#twitter_username: username
 github_username: milonbiswas4702
 minimal_mistakes_skin: default
 search: true
@@ -34,7 +34,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _pages
+  #- _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -60,32 +60,40 @@ plugins:
 author:
   name   : "Milon Biswas"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "'DREAM is something which doesn&#39;t let you sleep' – the quote I followed. I am keen on learning new things as an enthusiastic learner, taking on challenges, solving problems, and transforming innovative ideas into reality. Working in the academic (Teaching &amp; Research) arena for the past four years and have already published a few papers in the meantime. Finally building a career as a successful Academician and participating in advanced research in the desired fields."
+  bio    : "Assistant Professor, BUBT & Member, IEEE"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/milonbiswas4702"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+    - label: "Facebook"
+      icon: "fa facebook"
+      url: "https://web.facebook.com/milon.biswas1"
+    - label: "Linked-in"
+      icon: "fa linkedin"
+      url: "https://www.linkedin.com/in/milon-biswas/" 
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  #links:
+  #  - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+  #    url: "https://twitter.com/"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+  #    url: "https://github.com/"
+  #  - label: "Instagram"
+  #    icon: "fab fa-fw fa-instagram"
+  #    url: "https://instagram.com/"
+  #links:
+  #  - label: "Mail"
 
 defaults:
   # _posts
