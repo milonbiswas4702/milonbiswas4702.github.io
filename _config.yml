@@ -81,10 +81,10 @@ author:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
     - label: "Facebook"
-      icon: "fa fa-facebook"
+      icon: "fa facebook"
       url: "https://web.facebook.com/milon.biswas1"
     - label: "Linked-in"
-      icon: "fa fa-linkedin"
+      icon: "fa linkedin"
       url: "https://www.linkedin.com/in/milon-biswas/" 
 
 footer:
